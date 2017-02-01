@@ -20,6 +20,8 @@
 		87FAB9031E40471F0056FD67 /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB9021E40471F0056FD67 /* HomeDatasource.swift */; };
 		87FAB9051E424F200056FD67 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB9041E424F200056FD67 /* User.swift */; };
 		87FAB9071E4255490056FD67 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB9061E4255490056FD67 /* UserCell.swift */; };
+		87FAB9091E426C670056FD67 /* HomeDatasourceContriller+navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB9081E426C670056FD67 /* HomeDatasourceContriller+navbar.swift */; };
+		87FAB90B1E4285630056FD67 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FAB90A1E4285630056FD67 /* TweetCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		87FAB9021E40471F0056FD67 /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		87FAB9041E424F200056FD67 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		87FAB9061E4255490056FD67 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		87FAB9081E426C670056FD67 /* HomeDatasourceContriller+navbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HomeDatasourceContriller+navbar.swift"; sourceTree = "<group>"; };
+		87FAB90A1E4285630056FD67 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				8741313E1E4040CC009D9D19 /* HomeDatasourceController.swift */,
+				87FAB9081E426C670056FD67 /* HomeDatasourceContriller+navbar.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 			children = (
 				87FAB9001E4046E80056FD67 /* Cells.swift */,
 				87FAB9061E4255490056FD67 /* UserCell.swift */,
+				87FAB90A1E4285630056FD67 /* TweetCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -382,10 +388,12 @@
 				87FAB9031E40471F0056FD67 /* HomeDatasource.swift in Sources */,
 				87272B031E402E9B0059EA95 /* AppDelegate.swift in Sources */,
 				87FAB9051E424F200056FD67 /* User.swift in Sources */,
+				87FAB90B1E4285630056FD67 /* TweetCell.swift in Sources */,
 				87FAB9011E4046E80056FD67 /* Cells.swift in Sources */,
 				8741313F1E4040CC009D9D19 /* HomeDatasourceController.swift in Sources */,
 				87881E171E403112008E631D /* HomeController.swift in Sources */,
 				87FAB9071E4255490056FD67 /* UserCell.swift in Sources */,
+				87FAB9091E426C670056FD67 /* HomeDatasourceContriller+navbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
